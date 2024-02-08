@@ -1,0 +1,100 @@
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* bodu */
+body{
+    background-color: cyan;
+    margin-top: 180px;
+}
+/* start button */
+.startdiv{
+    position: absolute;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.startbtn{
+    font-size: large;
+    color: aliceblue;
+    width: 100px;
+    height: 70px;
+    border-radius: 4px;
+    background-color: rgb(139, 110, 165);
+    border: none;
+}
+/* button */
+button{
+    border: none;
+    cursor: pointer;
+}
+button:active{
+    opacity: 0.6;
+}
+/* hidden */
+.hidden{
+    display: none;
+}
+/* for question and answer */
+.container{
+    padding: 10px;
+    max-width: 70%;
+    height: 250px;
+    margin: auto;
+    background-color: beige;
+}
+/* question and answer*/
+.question,.answer,.correctAnswer,.wrongAnswer{
+    text-align: center;
+}
+.previousbtn{
+    float: left;
+}
+.nextbtn{
+    float: right;
+}
+.question{
+    padding-top: 60px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.btn button{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.showAnswer{
+    margin-top: 23px;
+}
+.previousbtn,.nextbtn{
+    background-color: blueviolet;
+    color: azure;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+}
+.correctAnswer{
+    background-color: green;
+    color: white;
+    width: 40%;
+    margin: auto;
+    border-radius: 4px;
+}
+.wrongAnswer{
+    background-color: red;
+    color: white;
+    width: 40%;
+    margin: auto;
+    border-radius: 4px;
+}
+/* js option button */
+.optionBtn{
+    color: white;
+    background-color: rgb(131, 122, 202);
+    padding: 10px;
+    margin: 30px 20px 0px 0px;
+    border-radius: 4px;
+}
